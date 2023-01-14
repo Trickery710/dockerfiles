@@ -2,7 +2,7 @@
 # Dockerfile for shoutcast
 #
 
-FROM debian:jessie
+FROM debian:bullseye-20221219
 
 MAINTAINER kev <noreply@easypi.pro>
 
