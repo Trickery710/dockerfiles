@@ -2,7 +2,7 @@
 # Dockerfile for openrefine
 #
 
-FROM openjdk:17-bullseye
+FROM openjdk:20-ea-30-jdk-slim
 MAINTAINER EasyPi Software Foundation
 
 ARG OPENREFINE_VERSION=3.6.0
