@@ -4,7 +4,7 @@
 # - https://docs.moodle.org/30/en/Step-by-step_Installation_Guide_for_Ubuntu
 #
 
-FROM php:5.6-apache
+FROM php:8.1.13-apache
 MAINTAINER kev<noreply@easypi.pro>
 
 RUN a2enmod rewrite
