@@ -2,7 +2,7 @@
 # Dockerfile for prestashop
 #
 
-FROM php:7.3-apache
+FROM php:8.1.13-apache
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN a2enmod rewrite
