@@ -2,7 +2,7 @@
 # Dockerfile for casperjs
 #
 
-FROM debian:jessie
+FROM debian:bullseye-20221219
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV PHANTOM_VER 2.1.1
