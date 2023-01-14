@@ -2,7 +2,7 @@
 # Dockerfile for influxdb
 #
 
-FROM debian:jessie
+FROM debian:bullseye-20221219
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV INFLUXDB_VERSION=1.0.0
