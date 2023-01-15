@@ -2,7 +2,7 @@
 # Dockerfile for nextcloud
 #
 
-FROM php:7-apache
+FROM php:8.1.13-apache
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN a2enmod rewrite
