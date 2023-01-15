@@ -2,7 +2,7 @@
 # Dockerfile for optaweb-employee-rostering
 #
 
-FROM openjdk:11-jdk-slim
+FROM openjdk:20-ea-30-jdk-slim
 MAINTAINER EasyPi Software Foundation
 
 ENV APP_VERSION=8.13.0.Final
