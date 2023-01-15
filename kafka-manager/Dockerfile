@@ -2,7 +2,7 @@
 # Dockerfile for kafka-manager
 #
 
-FROM openjdk:17.0.2
+FROM openjdk:20-ea-30-jdk-slim
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV SCALA_VERSION 2.12.8
