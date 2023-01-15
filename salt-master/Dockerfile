@@ -2,7 +2,7 @@
 # Dockerfile for salt-master
 #
 
-FROM debian:jessie
+FROM debian:bullseye-20221219
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apt-get update \
