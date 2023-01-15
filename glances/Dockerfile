@@ -2,7 +2,7 @@
 # Dockerfile for glances
 #
 
-FROM debian:jessie
+FROM debian:bullseye-20221219
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
