@@ -2,7 +2,7 @@
 # Dockerfile for datax
 #
 
-FROM openjdk:8-alpine
+FROM openjdk:20-ea-30-jdk-slim
 MAINTAINER EasyPi Software Foundation
 
 WORKDIR /opt/datax
