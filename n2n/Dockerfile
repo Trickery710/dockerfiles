@@ -2,7 +2,7 @@
 # Dockerfile for n2n
 #
 
-FROM debian:buster
+FROM debian:bullseye-20221219
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
