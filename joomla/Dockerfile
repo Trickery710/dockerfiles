@@ -2,7 +2,7 @@
 # Dockerfile for Joomla
 #
 
-FROM php:8.1.13-apache
+FROM php:8.1.13-bullseye
 MAINTAINER kev<noreply@easypi.pro>
 
 RUN set -xe \
