@@ -2,7 +2,7 @@
 # Dockerfile for apacheds
 #
 
-FROM debian:buster
+FROM debian:bullseye-20221219
 MAINTAINER EasyPi Software Foundation
 
 ENV GOSU_VERSION=1.11
