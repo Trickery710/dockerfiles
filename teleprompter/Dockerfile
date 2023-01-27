@@ -2,7 +2,7 @@
 # Dockerfile for teleprompter
 #
 
-FROM node:12-alpine
+FROM node:19.1-alpine
 MAINTAINER EasyPi Software Foundation
 
 ARG APP_DOMAIN=easypi.tv
