@@ -2,7 +2,7 @@
 # Dockerfile for piwik
 #
 
-FROM php:8.2-rc-zts
+FROM php:8.2.2-fpm-bullseye
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN set -xe \
