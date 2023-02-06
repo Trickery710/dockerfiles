@@ -1,4 +1,4 @@
-FROM php:8.1.13-bullseye
+FROM php:8.1.15-zts
 
 # Install dependencies
 RUN set -ex; \
