@@ -2,7 +2,7 @@
 # Dockerfile for motion-arm
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ARG MOTION_VERSION=4.4.0
