@@ -2,7 +2,7 @@
 # Dockerfile for nodebb
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ARG BB_VER=2.2.4
