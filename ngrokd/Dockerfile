@@ -2,7 +2,7 @@
 # Dockerfile for ngrokd
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 MAINTAINER kev <noreplay@easypi.pro>
 
 ENV NGROK_GIT https://github.com/inconshreveable/ngrok.git
