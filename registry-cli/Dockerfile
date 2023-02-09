@@ -14,7 +14,7 @@ RUN set -xe \
  && pyinstaller --onefile --name=registry-cli registry.py \
  && rm -rf /var/lib/apt/lists/*
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 COPY --from=build /app/dist/registry-cli /usr/local/bin/
 ENTRYPOINT ["registry-cli"]
