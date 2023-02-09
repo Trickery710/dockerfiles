@@ -2,7 +2,7 @@
 # Dockerfile for dante
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 
