@@ -2,7 +2,7 @@
 # Dockerfile for deface
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
