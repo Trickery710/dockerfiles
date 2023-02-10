@@ -2,7 +2,7 @@
 # Dockerfile for nullmailer
 #
 
-FROM debian:bullseye-20221219
+FROM debian:bullseye-20230208
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV DEBIAN_FRONTEND=noninteractive
