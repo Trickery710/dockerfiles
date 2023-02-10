@@ -2,7 +2,7 @@
 # Dockerfile for plex
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV PLEX_VERSION 0.9.16.6.1993-5089475
