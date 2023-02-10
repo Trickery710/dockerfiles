@@ -2,7 +2,7 @@
 # Dockerfile for scrapyd-arm (python3)
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ENV SCRAPY_VERSION=2.5.1
