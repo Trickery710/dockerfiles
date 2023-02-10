@@ -2,7 +2,7 @@
 # Dockerfile for cmak
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ARG SCALA_VERSION=2.12.16
