@@ -2,7 +2,7 @@
 # Dockerfile for scrapyd (python2) [deprecated]
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ENV SCRAPY_VERSION=1.8.0
