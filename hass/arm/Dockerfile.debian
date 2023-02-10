@@ -2,7 +2,7 @@
 # Dockerfile for hass-arm (Home Assistant)
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ENV HASS_VERSION=2021.11.1
