@@ -2,7 +2,7 @@
 # Dockerfile for mqtt-io-arm
 #
 
-FROM debian:bullseye
+FROM debian:11
 
 RUN set -xe \
  && apt update -y \
