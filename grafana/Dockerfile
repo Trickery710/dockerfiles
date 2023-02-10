@@ -2,7 +2,7 @@
 # Dockerfile for grafana
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV GRAFANA_VERSION=4.0.1-1480694114
