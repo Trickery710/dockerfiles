@@ -2,7 +2,7 @@
 # Dockerfile for chinadns
 #
 
-FROM debian:bullseye-20221219
+FROM debian:bullseye-20230208
 MAINTAINER kev <noreply@easypi.pro>
 
 ENV DNS_VER 1.3.2
