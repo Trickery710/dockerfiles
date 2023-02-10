@@ -2,7 +2,7 @@
 # Dockerfile for shoutcast
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 
 MAINTAINER kev <noreply@easypi.pro>
 
