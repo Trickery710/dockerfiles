@@ -2,7 +2,7 @@
 # Dockerfile for semaphore-arm64
 #
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ARG APP_VERSION=2.8.53
