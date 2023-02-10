@@ -2,7 +2,7 @@
 # Dockerfile for ndscheduler
 #
 
-FROM python:3.7-alpine
+FROM python:3.12.0a5-alpine
 MAINTAINER EasyPi Software Foundation
 
 RUN set -xe \
