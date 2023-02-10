@@ -2,7 +2,7 @@
 # Dockerfile for fteproxy
 #
 
-FROM debian:bullseye-20221219
+FROM debian:11
 MAINTAINER EasyPi Software Foundation
 
 ENV FTE_VER=0.2.18
